@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<AutommationType>Web</AutommationType>  <!--Web/Mobile/API/Desktop/Electron -->
+
+	<!-- URL -->
+
+	<url>https://accounts.spotify.com</url>
+
+	<!-- WEB -->
+
+	<ChromeDriverPatch>./Drivers/chromedriver.exe</ChromeDriverPatch>
+	<FFDriverPatch>./Drivers/geckodriver.exe</FFDriverPatch>
+	<DriverPathElectron>./Drivers/electrondriver.exe</DriverPathElectron>
+	<IEDriverPatch>./Drivers/IEDriverServer.exe</IEDriverPatch>
+	<BrowserType>chrome</BrowserType>
+
+	<!-- Mobile -->
+
+	<UDID>7EX7N17613001347</UDID>
+	<APP_PACKAGE>com.experitest.ExperiBank</APP_PACKAGE>
+	<APP_ACTIVITY>.LoginActivity</APP_ACTIVITY>
+	<Appium_Server_Address>http://localhost:4723/wd/hub
+	</Appium_Server_Address>
+
+	<!-- API -->
+
+	<API_URL>http://localhost:9000/</API_URL>
+	<API_Resource>/student</API_Resource>
+
+	<!-- Electron -->
+
+	<ElectronApp>C:/Users/USER/Desktop/Jar/ElectronAPI/Electron API
+		Demos.exe</ElectronApp>
+
+
+	<!-- Desktop -->
+
+	<DesktopApplication>C:/Windows/System32/calc.exe</DesktopApplication>
+	<DesktopDriver>./Drivers/Winium.Desktop.Driver.exe</DesktopDriver>
+
+	<!-- Reports -->
+
+	<ReportFilePath>C:/Automation/libs/Reports/</ReportFilePath>
+	<ReportFileName>TestExecution</ReportFileName>
+
+	<!-- DataBase -->
+	<DB_URL>jdbc:mysaql://localhost:3306/test</DB_URL>
+	<DB_User>root</DB_User>
+	<DB_Pass>root123</DB_Pass>
+
+</Configuration>

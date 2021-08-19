@@ -55,11 +55,11 @@ public class spotify extends commonOps
 
 	public void Test01_login() throws ParserConfigurationException, SAXException, IOException 
 	{
-		Web_search.go("arieldavidoff@gmail.com");
-		Web_search.password("Paris123654");
+		Web_search.go("arielqa123@gmail.com");
+		Web_search.password("Ad123654!");
 		click.go(spotifyMain.loginbutton);
 		click.account(spotifyMain.accountClick);
 		//verify.displayAccountPage(spotifyResults.Account, "Account overview");
-	//	verify.images("./ImageRepository/spoty.png");
+		//	verify.images("./ImageRepository/spoty.png");
 	}
 }

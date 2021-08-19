@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25973" started-at="2021-08-15T20:55:36Z" finished-at="2021-08-15T20:56:02Z">
+  <suite name="Default suite" duration-ms="23362" started-at="2021-08-19T15:43:35Z" finished-at="2021-08-19T15:43:58Z">
     <groups>
       <group name="HardCoded">
-        <method signature="spotify.Test01_login()[pri:0, instance:TestSanity.spotify@458c1321]" name="Test01_login" class="TestSanity.spotify"/>
+        <method signature="spotify.Test01_login()[pri:0, instance:TestSanity.spotify@55fe41ea]" name="Test01_login" class="TestSanity.spotify"/>
       </group> <!-- HardCoded -->
     </groups>
-    <test name="Default test" duration-ms="25973" started-at="2021-08-15T20:55:36Z" finished-at="2021-08-15T20:56:02Z">
+    <test name="Default test" duration-ms="23362" started-at="2021-08-19T15:43:35Z" finished-at="2021-08-19T15:43:58Z">
       <class name="TestSanity.spotify">
-        <test-method status="PASS" signature="StartSession()[pri:0, instance:TestSanity.spotify@458c1321]" name="StartSession" is-config="true" duration-ms="15564" started-at="2021-08-15T23:55:36Z" finished-at="2021-08-15T23:55:51Z">
+        <test-method status="PASS" signature="StartSession()[pri:0, instance:TestSanity.spotify@55fe41ea]" name="StartSession" is-config="true" duration-ms="13451" started-at="2021-08-19T18:43:35Z" finished-at="2021-08-19T18:43:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartSession -->
-        <test-method status="PASS" signature="doBeforeMethod(java.lang.reflect.Method)[pri:0, instance:TestSanity.spotify@458c1321]" name="doBeforeMethod" is-config="true" duration-ms="3" started-at="2021-08-15T23:55:51Z" finished-at="2021-08-15T23:55:51Z">
+        <test-method status="PASS" signature="doBeforeMethod(java.lang.reflect.Method)[pri:0, instance:TestSanity.spotify@55fe41ea]" name="doBeforeMethod" is-config="true" duration-ms="4" started-at="2021-08-19T18:43:48Z" finished-at="2021-08-19T18:43:48Z">
           <params>
             <param index="0">
               <value>
@@ -25,19 +25,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="Test01_login()[pri:0, instance:TestSanity.spotify@458c1321]" name="Test01_login" duration-ms="9419" started-at="2021-08-15T23:55:51Z" finished-at="2021-08-15T23:56:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test01_login -->
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:TestSanity.spotify@458c1321]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2021-08-15T23:55:51Z" finished-at="2021-08-15T23:55:51Z">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:TestSanity.spotify@55fe41ea]" name="doBeforeMethod" is-config="true" duration-ms="1" started-at="2021-08-19T18:43:48Z" finished-at="2021-08-19T18:43:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="doAfterTest()[pri:0, instance:TestSanity.spotify@458c1321]" name="doAfterTest" is-config="true" duration-ms="2" started-at="2021-08-15T23:56:01Z" finished-at="2021-08-15T23:56:01Z">
+        <test-method status="PASS" signature="Test01_login()[pri:0, instance:TestSanity.spotify@55fe41ea]" name="Test01_login" duration-ms="8838" started-at="2021-08-19T18:43:48Z" finished-at="2021-08-19T18:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_login -->
+        <test-method status="PASS" signature="doAfterTest()[pri:0, instance:TestSanity.spotify@55fe41ea]" name="doAfterTest" is-config="true" duration-ms="2" started-at="2021-08-19T18:43:57Z" finished-at="2021-08-19T18:43:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:TestSanity.spotify@458c1321]" name="closeSession" is-config="true" duration-ms="968" started-at="2021-08-15T23:56:01Z" finished-at="2021-08-15T23:56:02Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:TestSanity.spotify@55fe41ea]" name="closeSession" is-config="true" duration-ms="1041" started-at="2021-08-19T18:43:57Z" finished-at="2021-08-19T18:43:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
